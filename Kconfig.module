@@ -1,0 +1,12 @@
+#
+# Copyright (c) 2018 Intel Corporation
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+config FAT_FILESYSTEM_ELM
+	bool "ELM FAT File System"
+	select DISK_ACCESS
+	help
+	  Use the ELM FAT File system implementation.
+
